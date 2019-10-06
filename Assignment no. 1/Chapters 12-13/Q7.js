@@ -1,0 +1,65 @@
+var time=prompt("Enter military time.");
+var temp=1200;
+if(time==="0000"){
+    alert("12AM");
+}
+else{
+    if(time==="1300"){
+        alert("1PM");
+    }
+    else{
+        if(time==="1400"){
+            alert("2PM");
+        }
+        else{
+            if(time==="1500"){
+                alert("3PM");
+            }
+            else{
+                if(time==="1600"){
+                    alert("4PM");
+                }
+                else{
+                    if(time==="1700"){
+                        alert("5PM");
+                    }
+                    else{
+                        if(time==="1800"){
+                            alert("6PM");
+                        }
+                        else{
+                            if(time==="1900"){
+                                alert("7PM");
+                            }
+                            else{
+                                if(time==="2000"){
+                                    alert("8PM");
+                                }
+                                else{
+                                    if(time==="2100"){
+                                        alert("9PM");
+                                    }
+                                    else{
+                                        if(time==="2200"){
+                                            alert("10PM");
+                                        }
+                                        else{
+                                            if(time==="2300"){
+                                                alert("11PM");
+                                            }
+                                            else{
+                                                if(time==="2400"){
+                                                    alert("12AM");
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
